@@ -1,0 +1,22 @@
+.app-main-page {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.app-main-page-content {
+    width: 65%;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.app-content-headerSecion-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.app-content-headerSecion-subtitle {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 32px;
+}
