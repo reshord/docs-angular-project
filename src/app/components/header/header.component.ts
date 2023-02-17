@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { themeService } from 'src/app/services/theme-service';
+import { themeService } from 'src/assets/services/theme.service';
 
 @Component({
   selector: 'app-header',

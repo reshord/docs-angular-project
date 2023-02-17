@@ -30,6 +30,10 @@
     align-items: center;
 }
 
+.header-content-choose-theme {
+    margin-right: 10px;
+}
+
 .header-content-themeChanger {
     background: transparent;
     padding: 8px 10px;

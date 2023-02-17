@@ -1,0 +1,239 @@
+[
+    {
+        "chapter": "Глава 1. Введение в Angular",
+        "chapterList": [
+            {
+                "title": "Что такое Angular. Первый проект",
+                "number": "1.1"
+            },
+            {
+                "title": "Построение проекта",
+                "number": "1.2"
+            },
+            {
+                "title": "Первое приложение",
+                "number": "1.3"
+            }
+        ]
+    },
+    {
+        "chapter": "Глава 2. Основы Angular",
+        "chapterList": [
+            {
+                "title": "Компоненты",
+                "number": "2.1"
+            },
+            {
+                "title": "Модули",
+                "number": "2.2"
+            },
+            {
+                "title": "Загрузка приложения",
+                "number": "2.3"
+            },
+            {
+                "title": "Стили и шаблоны компонента",
+                "number": "2.4"
+            },
+            {
+                "title": "Привязка данных",
+                "number": "2.5"
+            },
+            {
+                "title": "Работа с компонентами",
+                "number": "2.6"
+            },
+            {
+                "title": "Взаимодействие между компонентами",
+                "number": "2.7"
+            },
+            {
+                "title": "Привязка к событиям дочернего компонента",
+                "number": "2.8"
+            },
+            {
+                "title": "Жизненный цикл компонента",
+                "number": "2.9"
+            },
+            {
+                "title": "Шаблонные переменные, ViewChild, ContentChild",
+                "number": "2.10"
+            },
+            {
+                "title": "Взаимодействие между модулями",
+                "number": "2.11"
+            }
+        ]
+    },
+    {
+        "chapter": "Глава 3. Директивы",
+        "chapterList": [
+            {
+                "title": "ngClass и ngStyle",
+                "number": "3.1"
+            },
+            {
+                "title": "Создание атрибутивных директив",
+                "number": "3.2"
+            },
+            {
+                "title": "Взаимодействие с пользователем, HostListener и HostBinding",
+                "number": "3.3"
+            },
+            {
+                "title": "Получение параметров в директивах",
+                "number": "3.4"
+            },
+            {
+                "title": "Структурные директивы ngIf, ngFor, ngSwitch",
+                "number": "3.5"
+            },
+            {
+                "title": "Создание структурных директив",
+                "number": "3.6"
+            }
+        ]
+    },
+    {
+        "chapter": "Глава 4. Сервисы и dependency injection",
+        "chapterList": [
+            {
+                "title": "Сервисы",
+                "number": "4.1"
+            },
+            {
+                "title": "Внедрение сервиса в другой сервис",
+                "number": "4.2"
+            },
+            {
+                "title": "Опциональные сервисы",
+                "number": "4.3"
+            },
+            {
+                "title": "Один сервис для всех компонентов",
+                "number": "4.4"
+            },
+            {
+                "title": "Иерархия сервисов",
+                "number": "4.5"
+            }
+        ]
+    },
+    {
+        "chapter": "Глава 5. Работа с формами",
+        "chapterList": [
+            {
+                "title": "Модуль FormsModule и директива NgModel",
+                "number": "5.1"
+            },
+            {
+                "title": "Получение и изменение модели",
+                "number": "5.2"
+            },
+            {
+                "title": "Состояние модели и валидация",
+                "number": "5.3"
+            },
+            {
+                "title": "Директива NgForm",
+                "number": "5.4"
+            },
+            {
+                "title": "Reactive Forms",
+                "number": "5.5"
+            }
+        ]
+    },
+    {
+        "chapter": "Глава 6. HTTP и взаимодействие с сервером",
+        "chapterList": [
+            {
+                "title": "HttpClient и отправка запросов",
+                "number": "6.1"
+            },
+            {
+                "title": "Объект Observable и библиотека RxJS",
+                "number": "6.2"
+            },
+            {
+                "title": "Обработка ошибок",
+                "number": "6.3"
+            },
+            {
+                "title": "Отправка данных в запросе",
+                "number": "6.4"
+            },
+            {
+                "title": "POST-запросы",
+                "number": "6.5"
+            }
+        ]
+    },
+    {
+        "chapter": "Глава 7. Маршрутизация",
+        "chapterList": [
+            {
+                "title": "Определение маршрутов",
+                "number": "7.1"
+            },
+            {
+                "title": "Создание ссылок",
+                "number": "7.2"
+            },
+            {
+                "title": "Параметры маршрута",
+                "number": "7.3"
+            },
+            {
+                "title": "Параметры строки запроса",
+                "number": "7.4"
+            },
+            {
+                "title": "Программная навигация",
+                "number": "7.5"
+            },
+            {
+                "title": "Дочерние маршруты",
+                "number": "7.6"
+            },
+            {
+                "title": "Guards",
+                "number": "7.7"
+            }
+        ]
+    },
+    {
+        "chapter": "Глава 8. Pipes",
+        "chapterList": [
+            {
+                "title": "Работа с pipes",
+                "number": "8.1"
+            },
+            {
+                "title": "Создание своих pipes",
+                "number": "8.2"
+            },
+            {
+                "title": "Pure и Impure Pipes",
+                "number": "8.3"
+            },
+            {
+                "title": "AsyncPipe",
+                "number": "8.4"
+            }
+        ]
+    },
+    {
+        "chapter": "Глава 9. Дополнительные статьи",
+        "chapterList": [
+            {
+                "title": "Webpack",
+                "number": "1.1"
+            },
+            {
+                "title": "Grid и CRUD-операции",
+                "number": "1.2"
+            }
+        ]
+    }
+]

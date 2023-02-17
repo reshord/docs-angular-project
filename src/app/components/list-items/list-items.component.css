@@ -1,0 +1,25 @@
+.list-items {
+   width: 500px;
+}
+
+
+
+.item {
+    margin-top: 10px;
+}
+
+.itemTitle {
+    font-weight: 600;
+}
+
+.chapterList {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+
+.chapterList span {
+    margin-left: 10px;
+    font-size: 15px;
+
+}

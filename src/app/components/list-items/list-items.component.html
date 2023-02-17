@@ -1,0 +1,10 @@
+<div class="list-items">
+
+    <div class="item" *ngFor="let item of listItems">
+        <span class="itemTitle">{{item.chapter}}</span>
+        <div class="chapterList" *ngFor="let chapterItem of item.chapterList">
+            <span class="numberOfChapterList">{{chapterItem.number}}</span>
+            <span>{{chapterItem.title}}</span>
+        </div>
+    </div>
+</div>
