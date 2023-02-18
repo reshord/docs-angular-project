@@ -1,8 +1,6 @@
 .list-items {
-   width: 500px;
+   width: 600px;
 }
-
-
 
 .item {
     margin-top: 10px;
@@ -17,9 +15,45 @@
     margin-left: 10px;
 }
 
-
 .chapterList span {
     margin-left: 10px;
     font-size: 15px;
+}
 
+.chapterItemTitle {
+    --blueAction-46: #84a0ef;
+    --foregroundAction: var(--blueAction-46);
+    color: var(--foregroundAction);
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.chapterItemTitle:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1180px) {
+    .list-items {
+        width: 400px;
+    }
+}
+@media (max-width: 1000px) {
+    .list-items {
+        width: 350px;
+    }
+}
+@media (max-width: 960px) {
+    .list-items {
+        width: 100%;
+    }
+    .itemTitle {
+        font-size: 23px;
+    }
+    .chapterList span {
+        font-size: 20px;
+    }
+    .chapterItemTitle {
+        font-size: 20px;
+    }
 }

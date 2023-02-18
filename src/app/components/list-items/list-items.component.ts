@@ -1,7 +1,7 @@
 import { OnInit } from '@angular/core';
 import { Input } from '@angular/core';
 import { Component } from '@angular/core';
-import { listItemsService } from 'src/assets/services/listItems.service';
+import { listItemsService } from 'src/services/listItems.service';
 import { IListItems } from 'src/assets/types/types';
 
 @Component({
