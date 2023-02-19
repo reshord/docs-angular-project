@@ -1,0 +1,20 @@
+<main >
+    <div class="app-main-page-content">
+      <section class="app-content-headerSection">
+        <span class="app-content-headerSection-title">Современный учебник Angular.js</span>
+        <p class="app-content-headerSection-subtitle">Перед вами учебник по Angular, начиная с <br> основ, включающий в себя много тонкостей и <br> фишек Angular.js</p>
+        <div class="app-content-search">
+            <input type="text" placeholder="Поиск по учебнику">
+            <button>Найти</button>
+        </div>
+        <div class="app-content-listItems">
+            <div class="list-items-header-title">
+              <span>Руководство по Angular 15</span>
+            </div>
+            <app-list-items [listItems]="getListItems('firstHalf')"></app-list-items>
+        </div>
+      </section>
+  
+      <app-list-items [listItems]="getListItems('secondHalf')"></app-list-items>
+    </div>
+  </main>

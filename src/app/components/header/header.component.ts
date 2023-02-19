@@ -1,7 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { StateObservable } from '@ngrx/store';
-import { themeService } from 'src/services/theme.service';
 import { themeChangerAction } from 'src/store/theme.actions';
 import { themeChangerSelector } from 'src/store/theme.selector';
 
