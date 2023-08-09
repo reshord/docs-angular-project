@@ -4,6 +4,8 @@ main {
     font-family: 'Roboto Condensed', sans-serif;
     background: white;
     color: black;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .dark {
@@ -11,4 +13,6 @@ main {
     --backgroundBase: var(--grey-10);
     background: var(--backgroundBase);
     color: white;
+    font-family: 'Open Sans', sans-serif;
+
 }

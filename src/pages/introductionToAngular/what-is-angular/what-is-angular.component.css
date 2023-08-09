@@ -1,0 +1,41 @@
+.whatIsAngularPage {
+    padding: 20px 0px;
+}
+
+.whatIsAngularHeaderBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    word-wrap: break-word;
+}
+
+span {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.whatIsAngularMainContent {
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    --grey-11: #e9e6e4;
+    --borderPrimary: var(--grey-11);
+    border: 2px solid var(--borderPrimary);
+}
+
+.whatIsAngularContent > p {
+    line-height: 23px;
+}
+
+.console {
+    background: black;
+    color: white;
+}
+
+.consoleText {
+    font-size: 16px;
+    padding: 3px 10px;
+}

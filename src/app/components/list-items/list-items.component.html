@@ -3,7 +3,7 @@
         <span class="itemTitle">{{item.chapter}}</span>
         <div class="chapterList" *ngFor="let chapterItem of item.chapterList">
             <span class="numberOfChapterList">{{chapterItem.number}}</span>
-            <a routerLink="1.1" class="chapterItemTitle">{{chapterItem.title}}</a>
+            <a [routerLink]="chapterItem.number" class="chapterItemTitle">{{chapterItem.title}}</a>
         </div>
     </div>
 </div>

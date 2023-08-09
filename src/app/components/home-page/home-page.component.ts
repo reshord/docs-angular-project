@@ -21,6 +21,7 @@ export class HomePageComponent {
   }
 
   listItems: IListItems[] = [];
+  posts: any[] = []
 
   getListItems(type: string) {
     if (type === 'firstHalf') {
